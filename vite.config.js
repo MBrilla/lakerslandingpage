@@ -3,5 +3,6 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/lakerslandingpage/' // Ensure this matches your repository name
-})
+  base: process.env.VITE_BASE_PATH || '/lakerslandingpage',
+  // base: '/lakerslandingpage/' // Comment out or remove this line for Vercel deployment
+});
