@@ -1,8 +1,6 @@
 import { useState } from 'react'
 import './App.css'
 import LakersLogo from './assets/Los_Angeles_Lakers_logo.svg'
-import PlayerSilhouette from './assets/lebronbronny.webp'
-import './assets/social-icons.svg'
 import Players from './components/Players'
 
 function App() {

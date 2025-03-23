@@ -1,4 +1,4 @@
-import axios from 'axios';
+
 
 export interface Player {
   id: number;
@@ -15,7 +15,6 @@ export interface Player {
   };
 }
 
-const BASE_URL = 'https://www.nba.com/stats/player';
 
 export const fetchLakersRoster = async (): Promise<Player[]> => {
   // Static roster data for 2023-24 season
